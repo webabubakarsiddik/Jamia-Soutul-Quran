@@ -13,8 +13,8 @@ const Gallery: React.FC = () => {
   return (
     <section id="gallery" className="py-16 bg-slate-50 relative overflow-hidden">
        <div className="absolute inset-0 opacity-30 pointer-events-none">
-        <div className="absolute top-1/4 right-0 w-96 h-96 bg-emerald-200 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-gold-200 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 right-0 w-96 h-96 xl:bg-emerald-200 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 left-0 w-96 h-96 xl:bg-gold-200 rounded-full blur-3xl"></div>
       </div>
       <div className="container-custom">
         {/* Section Header */}
@@ -92,8 +92,8 @@ const Gallery: React.FC = () => {
       {/* 2. Video Gallery Section (Bottom Section) */}
       <div className="relative py-12 bg-slate-50 overflow-hidden border-y border-slate-100 mt-10">
          <div className="absolute inset-0 opacity-30 pointer-events-none">
-        <div className="absolute top-1/4 right-0 w-96 h-96 bg-emerald-200 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-gold-200 rounded-full blur-3xl"></div>
+       <div className="absolute top-1/4 right-0 w-96 h-96 xl:bg-emerald-200 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 left-0 w-96 h-96 xl:bg-gold-200 rounded-full blur-3xl"></div>
       </div>
         <div className="container-custom mb-10 text-center">
           <div className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-emerald-100 border border-emerald-200 text-emerald-800 text-sm font-bold uppercase tracking-wider mb-6 shadow-sm">

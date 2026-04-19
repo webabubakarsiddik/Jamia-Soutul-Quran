@@ -2,8 +2,8 @@ export default function Hero1Section() {
   return (
     <section className="py-20 bg-slate-50 relative overflow-hidden">
        <div className="absolute inset-0 opacity-30 pointer-events-none">
-        <div className="absolute top-1/4 right-0 w-96 h-96 bg-emerald-200 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-1/4 left-0 w-96 h-96 bg-gold-200 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/4 right-0 w-96 h-96 xl:bg-emerald-200 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 left-0 w-96 h-96 xl:bg-gold-200 rounded-full blur-3xl"></div>
       </div>
       <div className="container-custom grid lg:grid-cols-2 gap-12 items-center">
 
